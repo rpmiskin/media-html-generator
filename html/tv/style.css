@@ -1,0 +1,97 @@
+#main {
+	/* font-family: 'Habibi', serif; */
+	font-family: 'Luckiest Guy', cursive;
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: EEEEEE;
+	border: 2px solid;
+	border-radius: 25px;
+}
+
+video {
+	width:580;
+	height:290;
+}
+img.swap-video{
+	width:580;
+	height:290;
+}
+
+#header a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#header a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+h1 {
+	text-align: center;
+	/* font-family: 'Archivo Black', sans-serif; */
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 72px;
+	margin-top: 8px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	text-align: center;
+	/* font-family: 'Archivo Black', sans-serif; */
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 48px;
+	margin-top: 4px;
+	margin-bottom: 0px;
+}
+.showlink {
+	text-align: center;
+	/* font-family: 'Archivo Black', sans-serif; */
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 48px;
+	margin-top: 4px;
+	margin-bottom: 0px;
+}
+h3.seasonName {
+	/* font-family: 'Archivo Black', sans-serif; */
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 32px;
+	margin-top: 8px;
+	margin-bottom: 4px;
+}
+
+#content {
+	font-size: 12px;
+	font-family: serif;
+}
+span.showlink {
+	display:block;
+	margin: 0 auto;
+	text-align: center;
+}
+.showlink a {
+	color: inherit;
+	text-decoration: none;
+	font-family: 'Luckiest Guy', cursive;
+		font-size: 48px;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+#content .ui-accordion-header {
+	font-family: 'Luckiest Guy', cursive;
+}
+
+#content .ui-accordion-content {
+	padding: 0;
+}
+
+#links {
+	/* float: left */;
+	padding: 10;
+}
+
+#content {
+	/* margin-left: 200; */
+	padding: 10;
+}
