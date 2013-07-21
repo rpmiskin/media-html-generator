@@ -14,7 +14,7 @@
         </descriptorRefs>
         <archive>
           <manifest>
-            <mainClass>in.misk.Main</mainClass>
+            <mainClass>in.misk.TVShowHTMLGenerator</mainClass>
           </manifest>
         </archive>
       </configuration>

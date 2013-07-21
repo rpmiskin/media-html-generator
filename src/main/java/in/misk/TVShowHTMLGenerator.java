@@ -25,7 +25,7 @@ public class TVShowHTMLGenerator {
 			+ "<script src=\"script.js\"></script>\n" + "\n" + "</head>";
 	/** Directory to parse to find TV shows. */
 	private static final File TV_DIR = new File(
-			"/Users/richard/Documents/workspace/HTMLGen/video/tv");
+			"/Users/richard/git/media-html-generator/video/tv");
 	// private static final File TV_DIR = new File("D:\\iTunes\\TV Shows");
 	/** Root URL for all TV shows. */
 	private static final String TV_ROOT = "http://192.168.0.100/media/tv/";
@@ -34,7 +34,7 @@ public class TVShowHTMLGenerator {
 	// File("D:\\inetpub\\wwwroot\\tv");
 
 	private static final File HTML_ROOT = new File(
-			"/Users/richard/Documents/workspace/HTMLGen/html/tv");
+			"/Users/richard/git/media-html-generator/html/tv");
 
 	/**
 	 * @param args
@@ -101,7 +101,7 @@ public class TVShowHTMLGenerator {
 			if (!show.seasons.isEmpty()) {
 				fileWriter.println("<h3 class=\"seasonName\"> No Season </h3>");
 			}
-			fileWriter.println("<div class=\"Xaccordion\">");
+			fileWriter.println("<div class=\"accordion\">");
 			for (final Link episode : show.episodes) {
 				fileWriter.print("<h3>" + episode.display + "</h3>");
 				fileWriter.print("<p>");
@@ -115,7 +115,7 @@ public class TVShowHTMLGenerator {
 			for (final Season season : show.seasons) {
 				fileWriter.println("<h3 class=\"seasonName\">"
 						+ season.seasonName + "</h3>");
-				fileWriter.println("<div class=\"Xaccordion\">");
+				fileWriter.println("<div class=\"accordion\">");
 				for (final Link episode : season.episodes) {
 					fileWriter.print("<h3>" + episode.display + "</h3>");
 					fileWriter.print("<p>");
