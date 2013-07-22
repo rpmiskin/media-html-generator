@@ -1,6 +1,7 @@
 *.class
 .DS_Store
 target
+/bin
 
 
 # Package Files #
